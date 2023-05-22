@@ -61,10 +61,6 @@ const Experience = () => {
             address={"Mountain View, CA"}
             work={"Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."}
           />
-          {/* <Details position={} company={} companyLink={} time={} address={} work={}/>
-          <Details position={} company={} companyLink={} time={} address={} work={}/>
-          <Details position={} company={} companyLink={} time={} address={} work={}/>
-          <Details position={} company={} companyLink={} time={} address={} work={}/> */}
         </ul>
       </div>
     </div>
