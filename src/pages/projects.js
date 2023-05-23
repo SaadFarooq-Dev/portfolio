@@ -28,7 +28,7 @@ const projects = () => {
               />
 
             </div>
-            <div className='col-span-6'>
+            <div className='col-span-6 sm:col-span-12'>
               <Projects
                 title={'Crypto Screener Application'}
                 link={'/'}
@@ -37,7 +37,7 @@ const projects = () => {
                 image={projectImage1}
               />
             </div>
-            <div className='col-span-6'>
+            <div className='col-span-6 sm:col-span-12'>
               <Projects
                 title={'Crypto Screener Application'}
                 link={'/'}
@@ -56,7 +56,7 @@ const projects = () => {
                 image={projectImage1}
               />
             </div>
-            <div className='col-span-6'>
+            <div className='col-span-6 sm:col-span-12'>
               <Projects
                 title={'Crypto Screener Application'}
                 link={'/'}
@@ -65,7 +65,7 @@ const projects = () => {
                 image={projectImage1}
               />
             </div>
-            <div className='col-span-6'>
+            <div className='col-span-6 sm:col-span-12'>
               <Projects
                 title={'Crypto Screener Application'}
                 link={'/'}
