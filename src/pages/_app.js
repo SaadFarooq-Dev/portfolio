@@ -1,5 +1,6 @@
 import { Montserrat } from 'next/font/google'
 import Head from 'next/head'
+import { Analytics } from '@vercel/analytics/react';
 
 import NavBar from '@/components/NavBar'
 import '@/styles/globals.css'
@@ -24,6 +25,7 @@ export default function App({ Component, pageProps }) {
         <NavBar />
         <AnimatePresence mode='wait'>
           <Component key={router.asPath} {...pageProps} />
+          <Analytics/>
         </AnimatePresence>
         <Footer />
       </main>
