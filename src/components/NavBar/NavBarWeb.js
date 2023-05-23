@@ -3,10 +3,10 @@ import CustomLink from '../CustomLink'
 import { motion } from 'framer-motion'
 import { DribbbleIcon, GithubIcon, LinkedInIcon, MoonIcon, PinterestIcon, SunIcon, TwitterIcon } from '../Icons'
 
-const NavBarWeb = ({mode, setMode}) => {
+const NavBarWeb = ({ mode, setMode }) => {
   return (
     <div className='w-full flex justify-between items-center lg:hidden'>
-    <nav>
+      <nav>
         <CustomLink href={'/'} title={'Home'} className='mr-4' />
         <CustomLink href={'/about'} title={'About'} className='mx-4' />
         <CustomLink href={'/projects'} title={'Projects'} className='mx-4' />
