@@ -25,16 +25,10 @@ const Experience = () => {
             time={'2022-Present'}
             work={`Developed and maintained 5+ high-performance and scalable applications using various programming languages. Collaborated with cross-functional teams to understand business requirements and translated them into technical solutions. Worked with distributed databases, including MySQL, PostgreSQL and MongoDB. Mentored junior engineers and helped them grow both technically and professionally.`}
           />
-          <Details position={'Software Engineer'}
-            company={'BlueprintNYC'}
-            companyLink={'https://www.blueprintnyc.com/'}
-            time={'2021-2022'}
-            work={"Worked on both the web application and the admin panel, built using ReactJS and NodeJS, added various new features to the admin dashboard and web application. Developed unit and integration tests to ensure the stability and reliability of the platform."}
-          />
           <Details position={'Associate Developer'}
-            company={'FAST-NU'}
+            company={'NUCES'}
             companyLink={'https://cfd.nu.edu.pk/'}
-            time={'2020-2021'}
+            time={'2021-2022'}
             work={"Worked on both the web application and the admin panel, built using ReactJS, adding various new features to the admin dashboard and web application. Worked on Real Time Embedded systems. Created and deployed an IoT integrated UHF RFID system with with real time tracking in warehouse. Created a full fledged front-end WMS with real time tracking of packages."}
           />
         </ul>
