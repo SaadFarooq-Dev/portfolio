@@ -5,6 +5,7 @@ import AnimatedText from '@/components/AnimatedText'
 import FeaturedProject from '@/components/FeaturedProject'
 import projectImage1 from '/public/images/projects/real-estate.png'
 import projectImage2 from '/public/images/projects/chat-app.png'
+import projectImage3 from '/public/images/projects/project-3.png'
 import Projects from '@/components/Projects'
 import Transition from '@/components/Transition'
 
@@ -42,11 +43,11 @@ const projects = () => {
             </div>
             <div className='col-span-6 sm:col-span-12'>
               <Projects
-                title={'Crypto Screener Application'}
-                link={'/'}
+                title={'Blog Application'}
+                link={'https://react-blog-app-p2.netlify.app/'}
                 type={'Project'}
                 github={'www.github.com'}
-                image={projectImage1}
+                image={projectImage3}
               />
             </div>
           </div>
