@@ -1,2 +1,2 @@
 # Next.Js Portfolio
-[https://www.saadfarooq.dev/]
+https://www.saadfarooq.dev/
